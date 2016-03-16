@@ -9,4 +9,6 @@ link_libraries (
 	${OPENGL_gl_LIBRARY}
 )
 
+piglit_add_executable (arb_shading_language_include-named_string_arb named_string_arb.c)
+
 # vim: ft=cmake:
